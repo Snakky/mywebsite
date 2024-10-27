@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UFT-8">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <title>User Management</title>
+        <link rel="stylesheet" href="styles1.css"> 
+</head>
+<body>
+    <div class="container">
+        <h1>User Management</h1>
+        <div class="input-container">
+            <input type="text" id="user" placeholder="Add a new user">
+            <select id="priority">
+                <option value="Employee">Employee</option>
+                <option value="Administrator">Administrator</option>
+            </select>
+            <input type="date" id="dueDate">
+            <button type onclick="addUser()">Add User</button>
+        </div>
+    </div>
+    <div class="mainList">
+        <table id="userTable">
+            <thead>
+                <tr>
+                    <th>User Name</th>
+                    <th>Position</th>
+                    <th>Due Date</th>                   
+                </tr>
+            </thead>
+            <tbody id="userList">
+            </tbody>
+        </table>
+    </div>
+    
+    <script src="script1.js"></script>
+</body>
+</html>

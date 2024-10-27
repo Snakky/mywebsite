@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: aliceblue;
+    margin: 0%;
+}
+ 
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: lightblue;
+    box-shadow: 0 2px 4px black (0, 0, 0, 0.1);
+}
+
+h1 {
+    color: black;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+select,
+input[type="date"] {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    outline: none;
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: lightgreen;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+    width: 20%;
+    box-sizing: border-box;
+    transition: backdround-color 0.3;
+}
+
+button:hover {
+    background-color: skyblue;
+    transform: scale(1.05);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0%;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: azure;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px 0;
+    transition: background-color 0.3s;
+}
+
+li:hover {
+    background-color: #f0f0f0;
+}
+
+li button{
+    background-color: lightcoral;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+li button:hover {
+    background-color: red;
+}
+
+input[type="text"],
+select,
+input[type="date"] {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    margin-right: 10px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"],
+select,
+input[type="date"]:focus {
+    border-color: lightblue;
+}
+
+
+.mainList table {
+    width: 100%;
+    color: black;
+    font-weight: bold;
+    border-collapse: collapse;
+    background-color: lightblue;
+}
+
+.mainList th, .mainList td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.mainList th {
+    background-color: lightblue;
+}
+
+.mainList td button {
+    background-color: lightcoral;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.mainList td button:hover {
+    background-color: red;
+}
